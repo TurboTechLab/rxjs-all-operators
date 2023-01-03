@@ -1,3 +1,4 @@
+import './style.css';
 import { timer, take, map, tap, share } from 'rxjs';
 import { logToDiv } from './display';
 import { concatAll, mergeAll, switchAll, exhaustAll } from 'rxjs';
