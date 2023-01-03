@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TuroTechlab RxJS Demo</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      .displayItem {
+        position: relative;
+        top: 20px;
+        margin: 5px;
+        padding: 5px;
+        color: tomato;
+        border: 2px solid grey;
+        border-radius: 100px;
+      }
+      .displayUnit,
+      .buttonUnit {
+        position: relative;
+        height: 50px;
+        justify-content: center;
+        margin-top: 20px;
+        border: 2px solid grey;
+        border-radius: 10px;
+      }
+      .buttonUnit {
+        display: flex;
+        align-content: center;
+      }
+      button {
+        position: relative;
+        top: 15px;
+        margin: 0 10px 0 10px;
+        height: 20px;
+      }
+      .title {
+        display: inline-block;
+        position: absolute;
+        top: -12px;
+        left: 20px;
+        padding: 0 5px 0 5px;
+        font-weight: bold;
+        background-color: #fff;
+        border: 2px solid grey;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="one" class="displayUnit">
+      <span class="title">Source</span>
+    </div>
+    <div id="map" class="displayUnit">
+      <span class="title">Mapped Observable</span>
+    </div>
+    <div id="two" class="displayUnit">
+      <span class="title">concatAll</span>
+    </div>
+    <div id="three" class="displayUnit">
+      <span class="title">mergeAll</span>
+    </div>
+    <div id="four" class="displayUnit">
+      <span class="title">exhaustAll</span>
+    </div>
+    <div id="five" class="displayUnit">
+      <span class="title">switchAll</span>
+    </div>
+    <p>
+      <a href="https://turbotechlab.com/" target="_blank">
+        <h2>TurboTechLab.com</h2></a
+      >
+    </p>
+
+    <span>
+      <a href="http://localhost:3200/topics/rxjs/operator-join-concat-all" target="_blank"><h3>concatAll </h3></a>
+    </span>
+    <span>
+      <a href="http://localhost:3200/topics/rxjs/operator-join-merge-all" target="_blank"><h3>mergeAll </h3></a>
+    </span>
+    <span>
+      <a href="http://localhost:3200/topics/rxjs/operator-join-exhaust-all" target="_blank"><h3>exhaustAll </h3></a>
+    </span>
+    <span>
+      <a href="http://localhost:3200/topics/rxjs/operator-join-switch-all" target="_blank"><h3>switchAll </h3></a>
+    </span>
+  </body>
+</html>

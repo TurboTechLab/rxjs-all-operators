@@ -1,0 +1,11 @@
+.displayItem {
+  width: 50;
+  height: 50;
+  color: red;
+  border: 2px solid tomato;
+}
+span {
+  width: 20;
+  height: 20;
+  border: 2px solid tomato;
+}
